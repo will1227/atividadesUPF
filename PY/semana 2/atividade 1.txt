@@ -1,0 +1,4 @@
+1- ler a cotação do dolar
+2- ler o valor a ser convertido 
+3- fazer a conversao do valor
+4- mostrar o resultado 

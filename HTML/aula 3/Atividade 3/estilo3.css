@@ -1,0 +1,33 @@
+
+#formulario{
+    background-color: white;
+    border: 1px lightgrey solid;
+    padding: 20px;
+
+}
+
+.entradas{
+    margin-bottom: 20px;
+    height: 40px;
+    width: 100%;
+    border: 1px solid lightgrey;
+    padding: 5px;
+
+}
+
+#msg{
+    height: 100px;
+    width: 100%;
+}
+
+#botaoE{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+
+}
+
+#botaoE:hover{
+    cursor: pointer;
+}
