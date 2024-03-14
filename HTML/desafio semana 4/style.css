@@ -1,0 +1,27 @@
+body {
+    background-color: silver;
+    color: black;
+    font-family: verdana;
+}
+h1 {
+    color: purple;
+    text-align: center;
+}
+fieldset {
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 2px 2px 2px gray;
+}
+fieldset legend {
+    font-weight: bold;
+}
+fieldset label {
+    font-weight: bold;
+}
+fieldset input, fieldset textarea {
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px;
+}
