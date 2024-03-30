@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nome = prompt("Insira seu nome")
+        let nota1 = parseInt(prompt("insira a primeira nota"))
+        let nota2 = parseInt(prompt("insira a segunda nota"))
+        let nota3 = parseInt(prompt("insira a terceira nota"))
+        let somanotas = nota1 + nota2 + nota3
+        let media = somanotas / 3
+
+        if (media >= 7){
+            alert("ola " + nome + " sua media é " + media + " voce esta aprovado")
+        }
+        if (media < 7 && media >= 4){
+            alert("ola " + nome + " sua media é " + media + " voce esta em exame")
+        }
+        else{
+            alert("ola " + nome + " sua media é " + media + " voce esta reprovado")
+        }
+        
+    </script>
+</body>
+</html>
